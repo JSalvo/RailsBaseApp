@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-lg-4">
+  </div>
+
+  <div class="col-lg-4">
+    <%= form_tag session_create_path do %>
+      Username:
+      <%= text_field_tag :username, nil, class: "form-control" %><br/>
+
+      Password
+      <%= password_field_tag :password, nil, class: "form-control" %><br/>
+
+
+      <%= submit_tag "Login", class: "form-control btn btn-danger" %>
+
+    <% end %>
+  </div>
+
+  <div class="col-lg-4">
+  </div>
+
+</div>
