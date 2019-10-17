@@ -66,3 +66,4 @@ gem 'bcrypt', '3.1.13'      # Serve per l'invio cifrato della password
 gem 'bootstrap', '4.3.1'    # Framework grafico
 gem 'jquery-rails', '4.3.5' # JQuery
 gem "font-awesome-rails"    # Font Gratuiti
+gem "rubyzip", ">= 1.3.0"
