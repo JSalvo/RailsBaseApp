@@ -62,6 +62,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Gem added from meeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!!!
-gem 'bcrypt', '3.1.13'
-gem 'bootstrap', '4.3.1'
-gem 'jquery-rails', '4.3.5'
+gem 'bcrypt', '3.1.13'      # Serve per l'invio cifrato della password
+gem 'bootstrap', '4.3.1'    # Framework grafico
+gem 'jquery-rails', '4.3.5' # JQuery
+gem "font-awesome-rails"    # Font Gratuiti
