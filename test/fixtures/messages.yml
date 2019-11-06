@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  message_datetime: 2019-10-18 09:36:41
+  body: MyText
+  conversation: one
+  user: one
+
+two:
+  message_datetime: 2019-10-18 09:36:41
+  body: MyText
+  conversation: two
+  user: two

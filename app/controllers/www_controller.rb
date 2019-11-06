@@ -9,4 +9,11 @@ class WwwController < ApplicationController
 
   def useful_links
   end
+
+  def get_json_code
+    respond_to do |format|
+        format.json { render json: [1,2,3] }
+        format.html { }  
+    end
+  end
 end

@@ -11,7 +11,19 @@
 
   <body>
       <div class="container">
+
+        <%= render "layouts/jnavbar" %>
+
         <%= notice %> <br/>
+
+        <% if notice %>
+          <script>
+            $( function()
+            {
+              $( "#dialog" ).dialog();
+            });
+          </script>
+        <% end %>
 
         <table style="width:100%; margin-top:30px;">
 
@@ -32,9 +44,16 @@
                   </tr>
         </table>
 
+        <br/>
+        <br/>
 
-        <br/>  <br/>
         <%= yield %>
+        <% if @dialog %>
+              <div id="dialog" title="Basic dialog">
+                <p>Login effettuato con successo!</p>
+              </div>
+        <% end %>
+
         </div>
   </body>
 </html>

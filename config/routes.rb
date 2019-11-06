@@ -1,7 +1,13 @@
 Rails.application.routes.draw do
 
 
+  resources :user_groups
+  resources :messages
+  resources :conversations
+  resources :conversation_types
   root 'www#index'
+
+  get "get_json_code" => "www#get_json_code"
 
   # LINK UTILI
   get 'usefullinks' => 'www#useful_links'

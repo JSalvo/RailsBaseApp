@@ -1,3 +1,16 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 @import "font-awesome";
+
+
+.jbg-theme
+{
+  background-color: red;
+}
+
+
+
+span
+{
+  padding-left: 20px;
+}

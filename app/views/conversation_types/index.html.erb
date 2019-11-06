@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Conversation Types</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @conversation_types.each do |conversation_type| %>
+      <tr>
+        <td><%= conversation_type.name %></td>
+        <td><%= link_to 'Show', conversation_type %></td>
+        <td><%= link_to 'Edit', edit_conversation_type_path(conversation_type) %></td>
+        <td><%= link_to 'Destroy', conversation_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Conversation Type', new_conversation_type_path %>

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Datetime conversation:</strong>
+  <%= @conversation.datetime_conversation %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @conversation.title %>
+</p>
+
+<p>
+  <strong>Datetime closing conversation:</strong>
+  <%= @conversation.datetime_closing_conversation %>
+</p>
+
+<p>
+  <strong>Conversation type:</strong>
+  <%= @conversation.conversation_type %>
+</p>
+
+<%= link_to 'Edit', edit_conversation_path(@conversation) %> |
+<%= link_to 'Back', conversations_path %>

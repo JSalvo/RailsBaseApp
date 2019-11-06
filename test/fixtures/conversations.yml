@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  datetime_conversation: 2019-10-18 09:35:16
+  title: MyString
+  datetime_closing_conversation: MyString
+  conversation_type: one
+
+two:
+  datetime_conversation: 2019-10-18 09:35:16
+  title: MyString
+  datetime_closing_conversation: MyString
+  conversation_type: two

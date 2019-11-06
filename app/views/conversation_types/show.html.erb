@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @conversation_type.name %>
+</p>
+
+<%= link_to 'Edit', edit_conversation_type_path(@conversation_type) %> |
+<%= link_to 'Back', conversation_types_path %>
