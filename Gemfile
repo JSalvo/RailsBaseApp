@@ -67,4 +67,4 @@ gem 'bootstrap', '4.3.1'    # Framework grafico
 gem 'jquery-rails', '4.3.5' # JQuery
 gem "font-awesome-rails"    # Font Gratuiti
 gem "rubyzip", ">= 1.3.0"
-gem "rack", "2.0.8"
+gem "rack", "2.1.4"
